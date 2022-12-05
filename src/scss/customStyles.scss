@@ -1,0 +1,438 @@
+.btn-primary {
+  --#{$prefix}btn-color: rgba(var(--#{$prefix}light-rgb));
+  --#{$prefix}btn-hover-color: #09b451;
+  --#{$prefix}btn-hover-bg: rgba(var(--#{$prefix}light-rgb));
+  --#{$prefix}btn-hover-border-color: #09b451;
+  --#{$prefix}btn-active-color: #09b451;
+  --#{$prefix}btn-active-bg: rgba(var(--#{$prefix}light-rgb));
+  --#{$prefix}btn-active-border-color: #09b451;
+  --#{$prefix}btn-active-shadow: none;
+  --#{$prefix}btn-disabled-color: rgba(var(--#{$prefix}light-rgb), 0.5);
+  --#{$prefix}btn-disabled-bg: #09b451;
+  --#{$prefix}btn-disabled-border-color: #09b451;
+}
+
+.primary-2 {
+  --#{$prefix}btn-padding-x: 1.2rem;
+  --#{$prefix}btn-padding-y: 0.6rem;
+}
+
+.light-2 {
+  --#{$prefix}btn-padding-x: 1.2rem;
+  --#{$prefix}btn-padding-y: 0.6rem;
+  --#{$prefix}btn-color: #09b451;
+  --#{$prefix}btn-bg: white;
+  --#{$prefix}btn-border-color: #09b451;
+  --#{$prefix}btn-hover-color: #09b451;
+  --#{$prefix}btn-hover-bg: #ffffffd3;
+  --#{$prefix}btn-hover-border-color: #09b450c4;
+  --#{$prefix}btn-active-color: #09b451;
+  --#{$prefix}btn-active-bg: #cccccc;
+  --#{$prefix}btn-active-border-color: #09b451;
+  --#{$prefix}btn-active-shadow: none;
+  --#{$prefix}btn-disabled-color: #09b450ab;
+  --#{$prefix}btn-disabled-bg: white;
+  --#{$prefix}btn-disabled-border-color: #09b450ab;
+}
+
+.prevInner,
+.nextInner {
+  --#{$prefix}btn-color: #09b451;
+  --#{$prefix}btn-bg: rgba(var(--#{$prefix}light-rgb));
+  --#{$prefix}btn-border-color: transparent;
+  --#{$prefix}btn-hover-color: rgba(var(--#{$prefix}light-rgb));
+  --#{$prefix}btn-hover-bg: #09b451;
+  --#{$prefix}btn-hover-border-color: transparent;
+  --#{$prefix}btn-focus-shadow-rgb: 8, 153, 69;
+  --#{$prefix}btn-active-color: rgba(var(--#{$prefix}light-rgb));
+  --#{$prefix}btn-active-bg: #09b451;
+  --#{$prefix}btn-active-border-color: transparent;
+  --#{$prefix}btn-active-shadow: none;
+  --#{$prefix}btn-disabled-color: #09b451;
+  --#{$prefix}btn-disabled-bg: rgba(var(--#{$prefix}light-rgb), 0.5);
+  --#{$prefix}btn-disabled-border-color: transparent;
+  padding: 0;
+}
+
+.prevOuter,
+.nextOuter {
+  --#{$prefix}btn-color: #09b451;
+  --#{$prefix}btn-bg: rgba(var(--#{$prefix}light-rgb));
+  --#{$prefix}btn-border-color: #09b451;
+  --#{$prefix}btn-hover-color: rgba(var(--#{$prefix}light-rgb));
+  --#{$prefix}btn-hover-bg: #09b451;
+  --#{$prefix}btn-hover-border-color: transparent;
+  --#{$prefix}btn-focus-shadow-rgb: 8, 153, 69;
+  --#{$prefix}btn-active-color: rgba(var(--#{$prefix}light-rgb));
+  --#{$prefix}btn-active-bg: #09b451;
+  --#{$prefix}btn-active-border-color: transparent;
+  --#{$prefix}btn-active-shadow: none;
+  --#{$prefix}btn-disabled-color: #09b451;
+  --#{$prefix}btn-disabled-bg: rgba(var(--#{$prefix}light-rgb), 0.5);
+  --#{$prefix}btn-disabled-border-color: #09b45081;
+  padding: 0;
+}
+
+.prevInner:hover path,
+.nextInner:hover path,
+.prevOuter:hover path,
+.nextOuter:hover path {
+  fill: var(--#{$prefix}btn-hover-color);
+}
+
+.prevInner:active path,
+.nextInner:active path,
+.prevOuter:active path,
+.nextOuter:active path {
+  fill: var(--#{$prefix}btn-active-color);
+}
+
+#Btn-primary-subscribe {
+  --#{$prefix}btn-bg: rgba(10, 199, 90, 0.8);
+  --#{$prefix}btn-hover-color: rgba(var(--#{$prefix}light-rgb));
+  --#{$prefix}btn-hover-bg: rgba(10, 199, 90, 0.9);
+  --#{$prefix}btn-active-color: rgba(var(--#{$prefix}light-rgb));
+  --#{$prefix}btn-active-bg: rgba(10, 199, 90, 0.9);
+  --#{$prefix}btn-disabled-color: rgba(var(--#{$prefix}light-rgb), 0.5);
+  --#{$prefix}btn-disabled-bg: rgba(10, 199, 90, 0.6);
+  --#{$prefix}btn-padding-x: 1.2rem;
+}
+
+#EmailSubscribe {
+  background-color: #ffffff;
+  padding: 1rem 0.75rem;
+}
+
+#EmailSubscribe::placeholder {
+  color: #3bd27b;
+  font-weight: 500;
+}
+
+.navbar-nav {
+  --#{$prefix}nav-link-color: #242243;
+}
+
+.original-name {
+  color: transparent !important;
+}
+
+.animationLink {
+  padding: 8px;
+  gap: 8px;
+  top: 0;
+  left: 0;
+  transition: top 1s;
+}
+
+.navbar-nav .nav-item:hover .animationLink {
+  top: -32px;
+}
+
+.customElementOption {
+  max-width: 230px;
+}
+
+.ElementImageRounded {
+  width: 40px;
+}
+
+.ElementRight {
+  right: -20px;
+  top: 65%;
+}
+
+.ElementLeft {
+  top: 45%;
+  left: 60px;
+}
+
+.ContainerElementImage,
+.ContainerElementImage2 {
+  max-width: 382px;
+}
+
+.ContainerElementImage > div:first-child::after,
+.ContainerElementImage2 > div:first-child::after {
+  content: "";
+  display: block;
+  padding-top: 120%;
+  width: 100%;
+}
+
+#MainImageHeader,
+#MainImageBringEducation {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  transition: width 2s, height 2s;
+}
+
+.ContainerElementImage:hover #MainImageHeader,
+.ContainerElementImage2:hover #MainImageBringEducation {
+  width: 120%;
+  height: 120%;
+}
+
+#ContainerTittleHeader {
+  height: max-content;
+}
+
+#GetStarted {
+  --#{$prefix}btn-padding-x: 1.2rem;
+  --#{$prefix}btn-font-size: 0.9rem;
+}
+
+#ContainerHeader1 > * {
+  z-index: 2;
+}
+
+#DecorationRight2 {
+  left: 80%;
+  z-index: 1;
+}
+
+#DecorationRight1 {
+  display: none;
+}
+
+.card-favourite-course {
+  width: 170px;
+  height: 190px;
+}
+
+.card-favourite-course > * {
+  z-index: 1;
+}
+
+.containerImgPerfil img,
+.card-custom-1 .container-img-card img,
+.card-favourite-course img,
+.container-perfil-instructor-img img {
+  object-fit: cover;
+}
+
+#DescriptionCardFavouriteCourse {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  );
+  z-index: 2;
+}
+
+.card-favourite-course > a {
+  z-index: 2;
+}
+
+.descriptionCourse {
+  height: 0;
+  margin-bottom: 0;
+  color: rgba(var(--#{$prefix}light-rgb));
+  padding: 0 1rem;
+  padding-bottom: 0;
+  transition: height 2s, padding-bottom 2s;
+}
+
+.card-favourite-course:hover .descriptionCourse {
+  height: 200px;
+  padding-bottom: 1rem;
+}
+
+#ContainerCardsFavouriteCourse,
+#ContainerCardsLearnSkill,
+#ContainerCardsReview {
+  overflow-x: auto;
+}
+
+.scroll-x:hover::-webkit-scrollbar {
+  display: initial;
+}
+
+.scroll-x::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  display: none;
+}
+
+.scroll-x::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.scroll-x::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-x::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.not-scroll-hover.scroll-x:hover::-webkit-scrollbar {
+  display: none;
+}
+
+.card-custom-1 .container-img-card {
+  height: 165px;
+}
+
+.card-custom-1 {
+  transform: translateY(0);
+  transition: transform 0.5s;
+}
+
+.card-custom-1:hover {
+  transform: translateY(-10px);
+}
+
+.svg-star {
+  width: 20px;
+  height: 20px;
+}
+
+.svg-persons {
+  width: 15px;
+  height: 15px;
+}
+
+.card-type-2 {
+  width: 300px;
+}
+
+#SvgJob1 {
+  width: 40px;
+  height: 40px;
+}
+
+#SvgJob1 img {
+  width: 30px;
+  height: 30px;
+}
+
+.figure-bottom {
+  top: 90%;
+}
+
+.svgItem1 {
+  width: 35px;
+  height: 35px;
+}
+
+.svgItem1 img {
+  width: 20px;
+  height: 20px;
+}
+
+.cardReview {
+  width: 250px;
+}
+
+.containerImgPerfil {
+  width: 30px;
+  height: 30px;
+}
+
+.container-perfil-instructor-img {
+  width: 70px;
+  height: 70px;
+}
+
+#ContainerImageContactUs::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.712);
+  z-index: 4;
+}
+
+#ContainerImageContactUs img {
+  object-fit: cover;
+}
+
+#SocialNetworks {
+  max-width: 330px;
+}
+
+.socialNetworks {
+  width: 25px;
+  height: 25px;
+}
+
+@include media-breakpoint-up(s) {
+  .customElementOption {
+    min-width: 200px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .customElementOption {
+    min-width: max-content;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .nav-link:hover,
+  .nav-link:focus {
+    color: inherit;
+  }
+  #ContainerHeader1 > * {
+    z-index: inherit;
+  }
+  #ContainerHeader2 {
+    overflow: hidden;
+  }
+  #ContainerHeader2 > * {
+    z-index: 2;
+  }
+  #DecorationRight2 {
+    display: none;
+  }
+  #DecorationRight1 {
+    display: initial;
+    left: 90%;
+    z-index: 1;
+  }
+  .card-favourite-course {
+    width: 250px;
+    height: 350px;
+  }
+  #ContainerCardsFavouriteCourse:hover::-webkit-scrollbar,
+  #ContainerCardsLearnSkill:hover::-webkit-scrollbar {
+    display: none;
+  }
+  #prev1,
+  #prev2 {
+    left: 20px;
+    z-index: 2;
+  }
+  #next1,
+  #next2 {
+    right: 20px;
+    z-index: 2;
+  }
+  .card-type-2 {
+    width: 355px;
+  }
+  .cardReview {
+    width: 350px;
+  }
+  .ContainerElementImage2 {
+    max-width: 330px;
+  }
+  .containerImgPerfil {
+    width: 40px;
+    height: 40px;
+  }
+  .container-perfil-instructor-img {
+    width: 80px;
+    height: 80px;
+  }
+  #SectionCallUs {
+    height: 400px;
+  }
+  #ContainerGirlContactUs {
+    max-width: 383px;
+    margin-top: -8%;
+  }
+}

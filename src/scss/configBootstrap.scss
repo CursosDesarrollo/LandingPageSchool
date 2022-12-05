@@ -1,0 +1,249 @@
+@import "~bootstrap/scss/functions";
+
+$primary: #09b451;
+$light: white;
+$secondary: #f2fbf5;
+$body-color: #333333;
+$btn-padding-x-lg: 1rem;
+$btn-padding-y-lg: 1rem;
+$btn-font-size-lg: 1rem;
+$grid-breakpoints: (
+  xs: 0,
+  s: 433px,
+  sm: 500px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+@import "~bootstrap/scss/variables";
+
+$customColors: (
+  "tertiary": #ddffff,
+  "fourth": #e4ffff,
+);
+
+$theme-colors: map-merge($theme-colors, $customColors);
+$navbar-padding-y: $spacer * 1;
+
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+
+$fonts: (
+  "poppins": (
+    "Poppins",
+    sans-serif,
+  ),
+  "openSans": (
+    "Open Sans",
+    sans-serif,
+  ),
+  "sourceSansPro": (
+    "Source Sans Pro",
+    sans-serif,
+  ),
+);
+
+$customSize: (
+  "7": $font-size-base * 0.9,
+  "x": $font-size-base * 3,
+  "xl": $font-size-base * 3.5,
+  "xxl": $font-size-base * 4,
+);
+
+$customShadow: (
+  "c1": 0px 0px 37.6191px rgba(112, 112, 112, 0.25),
+  "c2": 0px 4px 8px rgba(200, 200, 200, 0.25),
+  "card-1": 0px 0px 20px rgba(203, 203, 203, 0.25),
+  "card-2": 0px 0px 20px rgba(226, 226, 226, 0.25),
+  "card-3": 0px 0px 20px 0px #cbcbcb40,
+);
+
+$font-weight-custom: (
+  "normal-2": 500,
+);
+
+$height-custom: (
+  "max-c": max-content,
+);
+
+$width-custom: (
+  "max-c": max-content,
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-family":
+      map-merge(
+        map-get($utilities, "font-family"),
+        (
+          values:
+            map-merge(
+              map-get(map-get($utilities, "font-family"), "values"),
+              $fonts
+            ),
+        )
+      ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size":
+      map-merge(
+        map-get($utilities, "font-size"),
+        (
+          values:
+            map-merge(
+              map-get(map-get($utilities, "font-size"), "values"),
+              $customSize
+            ),
+        )
+      ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "shadow":
+      map-merge(
+        map-get($utilities, "shadow"),
+        (
+          values:
+            map-merge(
+              map-get(map-get($utilities, "shadow"), "values"),
+              $customShadow
+            ),
+        )
+      ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "background-color":
+      map-merge(
+        map-get($utilities, "background-color"),
+        (
+          responsive: true,
+          values:
+            map-merge(
+              map-get(map-get($utilities, "background-color"), "values"),
+              (
+                "lines-footer": rgba(255, 0, 0, 0.1),
+              )
+            ),
+        )
+      ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "rounded":
+      map-merge(
+        map-get($utilities, "rounded"),
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-weight":
+      map-merge(
+        map-get($utilities, "font-weight"),
+        (
+          responsive: true,
+          values:
+            map-merge(
+              map-get(map-get($utilities, "font-weight"), "values"),
+              $font-weight-custom
+            ),
+        )
+      ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size":
+      map-merge(
+        map-get($utilities, "font-size"),
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "height":
+      map-merge(
+        map-get($utilities, "height"),
+        (
+          values:
+            map-merge(
+              map-get(map-get($utilities, "height"), "values"),
+              $height-custom
+            ),
+        )
+      ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "width":
+      map-merge(
+        map-get($utilities, "width"),
+        (
+          values:
+            map-merge(
+              map-get(map-get($utilities, "width"), "values"),
+              $width-custom
+            ),
+        )
+      ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "z-index": (
+      responsive: true,
+      property: z-index,
+      values: (
+        1: 1,
+        2: 2,
+        3: 3,
+        4: 4,
+        5: 5,
+        6: 6,
+      ),
+    ),
+  )
+);
+
+$font-family-base: map-get($fonts, "poppins");
+$headings-font-family: map-get($fonts, "poppins");
+$headings-font-weight: 700;
+$input-btn-font-family: map-get($fonts, "sourceSansPro");
+
+@import "~bootstrap/scss/bootstrap";
+@import "./customStyles.scss";
