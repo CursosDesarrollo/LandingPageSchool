@@ -2,6 +2,7 @@
   "name": "landing-page",
   "version": "1.0.0",
   "description": "Landing page of school",
+  "homepage": "http://CursosDesarrollo.github.io/LandingPageSchool",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
