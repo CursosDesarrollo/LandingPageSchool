@@ -23,19 +23,19 @@ const CardsInstructor = () => {
   `,
     elements = [
       [
-        "/img/instructors/perfil2.jpg",
+        "./img/instructors/perfil2.jpg",
         "John Mark",
         "Senior Developer",
         "Education will be for you what you want it to be",
       ],
       [
-        "/img/instructors/perfil1.jpg",
+        "./img/instructors/perfil1.jpg",
         "Lora Shrof",
         "Marketing Lead",
         "Knowledge has to be improved, challenged, and increased constantly, or it vanishes",
       ],
       [
-        "/img/instructors/perfil3.jpg",
+        "./img/instructors/perfil3.jpg",
         "Zeng Chin",
         "Data Analist at Meta",
         "To know that we know what we know, and to know that we do not know what we do not know, that is true knowledge",

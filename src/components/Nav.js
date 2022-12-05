@@ -7,7 +7,7 @@ const Logo = () => {
   return `
     <div class="flex-grow-1 flex-lg-grow-0">
       <div role="button" class="ms-3" style="width: 130px">
-        <img src="/img/navBar/SvgLogo.svg" alt="..." class="w-100" />
+        <img src="./img/navBar/SvgLogo.svg" alt="..." class="w-100" />
       </div>
     </div>
   `;
@@ -16,7 +16,7 @@ const Logo = () => {
 const Search = () => {
   return `
     <div style="width: 25px;" role="button">
-      <img src="/img/navBar/SvgSearch.svg" alt="..." class="w-100">
+      <img src="./img/navBar/SvgSearch.svg" alt="..." class="w-100">
     </div>
   `;
 };
@@ -97,11 +97,11 @@ const OffCanvasMenu = () => {
 const Movil = () => {
   return `
     <div role="button" style="width: 35px" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
-      <img src="/img/navBar/SvgMenu.svg" alt="..." class="w-100" />
+      <img src="./img/navBar/SvgMenu.svg" alt="..." class="w-100" />
     </div>
     ${Logo()}
     <div role="button" style="width: 35px">
-      <img src="/img/navBar/SvgLogin.svg" alt="..." class="w-100" />
+      <img src="./img/navBar/SvgLogin.svg" alt="..." class="w-100" />
     </div>
     ${OffCanvasMenu()}
   `;

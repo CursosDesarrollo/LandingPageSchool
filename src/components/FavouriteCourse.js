@@ -29,13 +29,13 @@ const CardsFavouriteCourse = () => {
     </div>
   `,
     elements = [
-      ["Marketing", "/img/favouriteCourse/marketing.jpg"],
-      ["Technology", "/img/favouriteCourse/technology.jpg"],
-      ["Photography", "/img/favouriteCourse/photography.jpg"],
-      ["Cooking", "/img/favouriteCourse/cooking.jpg"],
-      ["Design", "/img/favouriteCourse/design.jpg"],
-      ["Programming", "/img/favouriteCourse/programming.jpg"],
-      ["Helth and Care", "/img/favouriteCourse/helthAndCare.jpg"],
+      ["Marketing", "./img/favouriteCourse/marketing.jpg"],
+      ["Technology", "./img/favouriteCourse/technology.jpg"],
+      ["Photography", "./img/favouriteCourse/photography.jpg"],
+      ["Cooking", "./img/favouriteCourse/cooking.jpg"],
+      ["Design", "./img/favouriteCourse/design.jpg"],
+      ["Programming", "./img/favouriteCourse/programming.jpg"],
+      ["Helth and Care", "./img/favouriteCourse/helthAndCare.jpg"],
     ];
   return elements.map(val => element(...val)).join("");
 };

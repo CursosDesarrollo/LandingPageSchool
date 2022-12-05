@@ -7,7 +7,7 @@ import {NextAndPrevElement} from "./common/NextAndPrevElement";
 const Cards = () => {
   const elements = [
     [
-      "/img/learnSkill/imgCard4.jpg",
+      "./img/learnSkill/imgCard4.jpg",
       "All you need in Business Strategy",
       "4.5",
       "30.5",
@@ -15,7 +15,7 @@ const Cards = () => {
       "6 weeks",
     ],
     [
-      "/img/learnSkill/imgCard3.jpg",
+      "./img/learnSkill/imgCard3.jpg",
       "The amazing hack in Figma prototyping",
       "4.5",
       "30.5",
@@ -23,7 +23,7 @@ const Cards = () => {
       "6 weeks",
     ],
     [
-      "/img/learnSkill/imgCard1.jpg",
+      "./img/learnSkill/imgCard1.jpg",
       "Introduction to basic game developement",
       "4.5",
       "30.5",
@@ -31,7 +31,7 @@ const Cards = () => {
       "6 weeks",
     ],
     [
-      "/img/learnSkill/imgCard7.jpg",
+      "./img/learnSkill/imgCard7.jpg",
       "Introduction to front-end development",
       "4.5",
       "30.5",
@@ -39,7 +39,7 @@ const Cards = () => {
       "6 weeks",
     ],
     [
-      "/img/learnSkill/imgCard2.jpg",
+      "./img/learnSkill/imgCard2.jpg",
       "Use surveyMonkey to create a survey",
       "4.5",
       "30.5",
@@ -47,7 +47,7 @@ const Cards = () => {
       "6 weeks",
     ],
     [
-      "/img/learnSkill/imgCard6.jpg",
+      "./img/learnSkill/imgCard6.jpg",
       "Get started with First aid",
       "4.5",
       "30.5",
@@ -55,7 +55,7 @@ const Cards = () => {
       "6 weeks",
     ],
     [
-      "/img/learnSkill/imgCard5.jpg",
+      "./img/learnSkill/imgCard5.jpg",
       "Everrything you need to know in UX",
       "4.5",
       "30.5",

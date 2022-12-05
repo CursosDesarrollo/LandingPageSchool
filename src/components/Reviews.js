@@ -25,11 +25,11 @@ const CardsReview = () => {
     </div>
   `,
     elements = [
-      ["/img/review/perfil1.jpg", "Mohh Jumah", "Senior Developer"],
-      ["/img/review/perfil2.jpg", "John Mark", "Data Analyst"],
-      ["/img/review/perfil3.jpg", "Rabiu Hassan", "Marketer"],
-      ["/img/review/perfil4.jpg", "Mheyah Khalifa", "Ux Lead"],
-      ["/img/review/perfil5.jpeg", "Elon Musk", "Content Writer"],
+      ["./img/review/perfil1.jpg", "Mohh Jumah", "Senior Developer"],
+      ["./img/review/perfil2.jpg", "John Mark", "Data Analyst"],
+      ["./img/review/perfil3.jpg", "Rabiu Hassan", "Marketer"],
+      ["./img/review/perfil4.jpg", "Mheyah Khalifa", "Ux Lead"],
+      ["./img/review/perfil5.jpeg", "Elon Musk", "Content Writer"],
     ];
   return `
     <div class="col-12 col-lg-8">
@@ -48,7 +48,7 @@ const ElementLeft = () => {
         <span class="position-relative"
           ><span class="text-primary">Students</span
           ><img
-            src="/img/review/SvgFigure2.svg"
+            src="./img/review/SvgFigure2.svg"
             alt="..."
             class="w-100 position-absolute start-0 figure-bottom"
         /></span>

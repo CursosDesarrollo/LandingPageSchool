@@ -8,21 +8,21 @@ const InformationRight = () => {
         <div class="hstack gap-2">
           <span
             class="d-flex justify-content-center align-items-center bg-tertiary svgItem1 rounded-circle"
-            ><img src="/img/bringEducation/SvgBook.svg" alt="..."
+            ><img src="./img/bringEducation/SvgBook.svg" alt="..."
           /></span>
           <p class="m-0 fw-normal-2 flex-grow-1">Free E-book, Videos and kits</p>
         </div>
         <div class="hstack gap-2">
           <span
             class="d-flex justify-content-center align-items-center bg-tertiary svgItem1 rounded-circle"
-            ><img src="/img/bringEducation/SvgTime.svg" alt=".."
+            ><img src="./img/bringEducation/SvgTime.svg" alt=".."
           /></span>
           <p class="m-0 fw-normal-2 flex-grow-1">Learn at your own pace</p>
         </div>
         <div class="hstack gap-2">
           <span
             class="d-flex justify-content-center align-items-center bg-tertiary svgItem1 rounded-circle"
-            ><img src="/img/bringEducation/SvgJob.svg" alt="..."
+            ><img src="./img/bringEducation/SvgJob.svg" alt="..."
           /></span>
           <p class="m-0 fw-normal-2 flex-grow-1">
             Collaborate with different learners around the globe
@@ -31,7 +31,7 @@ const InformationRight = () => {
         <div class="hstack gap-2">
           <span
             class="d-flex justify-content-center align-items-center bg-tertiary svgItem1 rounded-circle"
-            ><img src="/img/popularCourse/SvgPersons.svg" alt="..."
+            ><img src="./img/popularCourse/SvgPersons.svg" alt="..."
           /></span>
           <p class="m-0 fw-normal-2 flex-grow-1">
             Top instructors around the globe
@@ -48,7 +48,7 @@ const ImageLeft = () => {
       <div class="col-10 col-sm-9 position-relative ContainerElementImage2 mx-sm-auto">
         <div class="rounded-5 overflow-hidden position-relative">
           <img
-            src="/img/bringEducation/fondo.jpg"
+            src="./img/bringEducation/fondo.jpg"
             alt="..."
             id="MainImageBringEducation"
           />
@@ -60,13 +60,13 @@ const ImageLeft = () => {
             class="rounded-circle d-flex justify-content-center align-items-center bg-tertiary"
             id="SvgJob1"
           >
-            <img src="/img/bringEducation/SvgJob.svg" alt="..." />
+            <img src="./img/bringEducation/SvgJob.svg" alt="..." />
           </div>
           <div class="text-center vstack align-items-center mb-3">
             <span class="d-block position-relative">
               <span class="text-primary h5">Job</span>
               <img
-                src="/img/bringEducation/SvgFigure1.svg"
+                src="./img/bringEducation/SvgFigure1.svg"
                 alt="..."
                 class="w-100 position-absolute start-0 figure-bottom"
               />

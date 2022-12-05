@@ -5,7 +5,7 @@ const ElementImageRounded = () => {
       class="d-inline-block overflow-hidden rounded-circle border border-light border-3 position-relative ElementImageRounded"
       style="right: ${left}px;"
     >
-      <img src="/img/header/SrHipster.jpg" alt="..." class="w-100" />
+      <img src="./img/header/SrHipster.jpg" alt="..." class="w-100" />
     </span>
   `;
   for (let index = 0; index < 5; index++) elements.push(element(15 * index));
@@ -18,7 +18,7 @@ const ElementRight = () => {
       class="position-absolute vstack rounded-3 p-2 bg-light shadow-c1 ElementRight"
     >
       <div style="width: 30px" class="align-self-center">
-        <img src="/img/header/SvgPerson.svg" alt="..." class="w-100" />
+        <img src="./img/header/SvgPerson.svg" alt="..." class="w-100" />
       </div>
       <div>
         <p class="text-primary fw-bolder h5 text-center">15K</p>
@@ -70,11 +70,11 @@ const DecorationRight = id => {
 
 const ContainerOptions = () => {
   const options = [
-    ["Problem Solving", "/img/header/SvgOption1.svg"],
-    ["Live chat", "/img/header/SvgOption2.svg"],
-    ["Group Reading", "/img/header/SvgOption3.svg"],
-    ["10k Courses", "/img/header/SvgOption4.svg"],
-    ["Hand-on activities", "/img/header/SvgOption5.svg"],
+    ["Problem Solving", "./img/header/SvgOption1.svg"],
+    ["Live chat", "./img/header/SvgOption2.svg"],
+    ["Group Reading", "./img/header/SvgOption3.svg"],
+    ["10k Courses", "./img/header/SvgOption4.svg"],
+    ["Hand-on activities", "./img/header/SvgOption5.svg"],
   ];
   const elements = options.map(val => ElementOption(...val)).join("");
   return `
@@ -105,7 +105,7 @@ export const Header = () => {
             <div class="col-10 position-relative ContainerElementImage">
               <div class="rounded-5 overflow-hidden position-relative">
                 <img
-                  src="/img/header/GirlStudent.jpg"
+                  src="./img/header/GirlStudent.jpg"
                   alt="..."
                   id="MainImageHeader"
                 />

@@ -3,7 +3,7 @@ import {CardCourse} from "./common/CardCourse";
 const Cards = () => {
   const elements = [
     [
-      "/img/popularCourse/imgCard1.jpg",
+      "./img/popularCourse/imgCard1.jpg",
       "Learn Marketing from Top Instructors",
       "4.5",
       "30.5",
@@ -11,7 +11,7 @@ const Cards = () => {
       "6 weeks",
     ],
     [
-      "/img/popularCourse/imgCard2.jpg",
+      "./img/popularCourse/imgCard2.jpg",
       "Front-end development is not hard as you think",
       "4.5",
       "30.5",
@@ -19,7 +19,7 @@ const Cards = () => {
       "6 weeks",
     ],
     [
-      "/img/popularCourse/imgCard3.jpg",
+      "./img/popularCourse/imgCard3.jpg",
       "Everrything you need to know in UX",
       "4.5",
       "30.5",
@@ -27,7 +27,7 @@ const Cards = () => {
       "6 weeks",
     ],
     [
-      "/img/popularCourse/imgCard4.jpg",
+      "./img/popularCourse/imgCard4.jpg",
       "Learn photography with ease",
       "4.5",
       "30.5",
@@ -35,7 +35,7 @@ const Cards = () => {
       "6 weeks",
     ],
     [
-      "/img/popularCourse/imgCard5.jpg",
+      "./img/popularCourse/imgCard5.jpg",
       "Be a pro in data analysis",
       "4.5",
       "30.5",
@@ -43,7 +43,7 @@ const Cards = () => {
       "6 weeks",
     ],
     [
-      "/img/popularCourse/imgCard6.jpg",
+      "./img/popularCourse/imgCard6.jpg",
       "Ethical Harking is not hard as you think",
       "4.5",
       "30.5",
@@ -73,7 +73,7 @@ export const PopularCourses = () => {
           <div role="button" class="bg-primary rounded-5 dropdown-custom-1 hstack px-3 py-1">
             <div style="width: 30px; height: 30px">
               <img
-                src="/img/popularCourse/SvgIconDropdown1.svg"
+                src="./img/popularCourse/SvgIconDropdown1.svg"
                 alt="..."
                 class="w-100"
               />

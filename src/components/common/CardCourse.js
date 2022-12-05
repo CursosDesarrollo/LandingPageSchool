@@ -24,7 +24,7 @@ export const CardCourse = (
             <h3 class="h5 fw-normal-2 text-break">${title}</h3>
           </div>
           <div class="hstack h-max-c gap-1">
-            <img src="/img/popularCourse/SvgStar.svg" alt="..." class="svg-star" />
+            <img src="./img/popularCourse/SvgStar.svg" alt="..." class="svg-star" />
             <p class="m-0 text-black">${score}</p>
           </div>
         </header>
@@ -36,7 +36,7 @@ export const CardCourse = (
           <div class="flex-grow-1">
             <div class="hstack gap-1">
               <img
-                src="/img/popularCourse/SvgPersons.svg"
+                src="./img/popularCourse/SvgPersons.svg"
                 alt="..."
                 class="svg-persons"
               />

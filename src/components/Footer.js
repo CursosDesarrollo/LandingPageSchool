@@ -24,10 +24,10 @@ const SocialNetworks = () => {
       </a>
     `,
     elements = [
-      "/img/footer/SvgFacebook.svg",
-      "/img/footer/SvgTwitter.svg",
-      "/img/footer/SvgInstragram.svg",
-      "/img/footer/SvgLinkedin.svg",
+      "./img/footer/SvgFacebook.svg",
+      "./img/footer/SvgTwitter.svg",
+      "./img/footer/SvgInstragram.svg",
+      "./img/footer/SvgLinkedin.svg",
     ];
   return `
     <div id="SocialNetworks" class="vstack align-items-lg-start pb-5 pb-lg-0">

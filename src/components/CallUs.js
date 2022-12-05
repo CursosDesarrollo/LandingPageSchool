@@ -11,7 +11,7 @@ const GirlContactUs = () => {
     >
       ${
         mediaLg
-          ? `<img src="/img/contactUs/girlContactUs.png" alt="..." class="w-100" />`
+          ? `<img src="./img/contactUs/girlContactUs.png" alt="..." class="w-100" />`
           : ""
       }
     </div>
@@ -32,7 +32,7 @@ export const CallUs = () => {
         class="position-absolute top-0 start-0 end-0 bottom-0 z-index-1 overflow-hidden"
       >
         <img
-          src="/img/contactUs/fondo.webp"
+          src="./img/contactUs/fondo.webp"
           alt="..."
           class="w-100 h-100 position-relative z-index-2"
         />
